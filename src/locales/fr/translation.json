@@ -1,0 +1,89 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Bonjour, je suis Saphal Chudal",
+    "description": "Je suis un développeur Full-Stack passionné avec un talent pour la création d'applications web robustes et évolutives. Mon expertise réside dans la construction d'interfaces utilisateur dynamiques avec React et Next.js, et le développement de systèmes backend efficaces utilisant Node.js et diverses technologies de base de données.",
+    "button": "En savoir plus"
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "subtitle": "Technologies et compétences générales avec lesquelles je travaille",
+    "technical_skills": "Compétences techniques",
+    "soft_skills": "Compétences générales",
+    "education_certifications": "Éducation et Certifications",
+    "education": "Éducation",
+    "education_degree": "Licence (Hons) Informatique",
+    "education_college": "Itahari International College",
+    "education_university": "London Metropolitan University",
+    "education_date": "Septembre 2023 - Présent",
+    "aws_certification_title": "AWS Academy Cloud Foundations",
+    "aws_certification_provider": "Formation et certification Amazon Web Services",
+    "aws_certification_date": "2 Décembre 2024",
+    "view_certificate": "Voir le certificat →",
+    "career_objective": "Objectif de carrière",
+    "career_objective_description": "Développeur frontend aspirant avec de solides compétences en HTML, CSS, JavaScript et React, visant à créer des applications web percutantes et conviviales. Engagé dans l'apprentissage continu et la contribution à des solutions innovantes de haute qualité qui favorisent le succès organisationnel.",
+    "focus": "Concentration",
+    "focus_description": "Développement Frontend",
+    "focus_tech": "React, JavaScript, CSS",
+    "projects_title": "Projets",
+    "projects_count": "3+ Terminés",
+    "projects_types": "Applications Web et Mobiles"
+  },
+  "projects": {
+    "title": "Projets en vedette",
+    "subtitle": "Une vitrine de mes travaux récents et de mes projets personnels",
+    "filter": {
+      "all": "Tout",
+      "web": "Web",
+      "mobile": "Mobile",
+      "full_stack": "Full-Stack"
+    },
+    "view_code": "Voir le code",
+    "stats": {
+      "completed_projects": "Projets terminés",
+      "technologies_used": "Technologies utilisées",
+      "open_source": "Open Source"
+    },
+    "ryde": {
+      "title": "Ryde",
+      "description": "Une application mobile qui connecte les passagers avec les conducteurs utilisant leurs véhicules personnels pour le transport. Elle dispose d'un suivi de localisation en temps réel, d'une intégration de paiement sécurisée et d'une interface conviviale pour les passagers et les conducteurs."
+    },
+    "horizon": {
+      "title": "Horizon",
+      "description": "Un site Web de commerce électronique qui vend des imprimantes aux clients avec une interface conviviale. Il présente un catalogue de produits, une fonctionnalité de panier d'achat et une conception réactive pour une expérience utilisateur optimale sur tous les appareils."
+    },
+    "kitab_zone": {
+      "title": "Kitab-Zone",
+      "description": "Un système de gestion de bibliothèque basé sur le Web conçu pour automatiser le suivi des livres, les emprunts, les réservations et les tâches administratives pour les collèges. Il comprend l'authentification des utilisateurs, la recherche de livres et un tableau de bord administratif."
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "subtitle": "Discutons des opportunités et collaborons sur des projets passionnants",
+    "info_title": "Informations de contact",
+    "email": "Email",
+    "phone": "Téléphone",
+    "location": "Emplacement",
+    "location_value": "Biratchowk, Népal",
+    "connect_title": "Connectez-vous avec moi",
+    "promise_title": "Promesse de réponse rapide",
+    "promise_description": "Je réponds généralement aux messages dans les 24 heures. Pour les questions urgentes, n'hésitez pas à m'appeler directement.",
+    "send_message_title": "Envoyer un message",
+    "name_label": "Nom *",
+    "name_placeholder": "Votre nom complet",
+    "email_label": "Email *",
+    "email_placeholder": "votre.email@example.com",
+    "subject_label": "Sujet *",
+    "subject_placeholder": "De quoi s'agit-il?",
+    "message_label": "Message *",
+    "message_placeholder": "Parlez-moi de votre projet ou de votre opportunité...",
+    "send_button": "Envoyer le message",
+    "sending_button": "Envoi...",
+    "alert_success": "Merci pour votre message ! Je vous recontacterai bientôt."
+  }
+} 

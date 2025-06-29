@@ -1,0 +1,89 @@
+{
+  "navigation": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hello, I'm Saphal Chudal",
+    "description": "I am a passionate Full-Stack Developer with a knack for crafting robust and scalable web applications. My expertise lies in building dynamic user interfaces with React and Next.js, and developing efficient backend systems using Node.js and various database technologies.",
+    "button": "Learn More"
+  },
+  "skills": {
+    "title": "My Skills",
+    "subtitle": "Technologies and soft skills I work with",
+    "technical_skills": "Technical Skills",
+    "soft_skills": "Soft Skills",
+    "education_certifications": "Education & Certifications",
+    "education": "Education",
+    "education_degree": "BSC. (Hons) Computing",
+    "education_college": "Itahari International College",
+    "education_university": "London Metropolitan University",
+    "education_date": "Sep 2023 - Present",
+    "aws_certification_title": "AWS Academy Cloud Foundations",
+    "aws_certification_provider": "Amazon Web Services Training and Certification",
+    "aws_certification_date": "Dec 2, 2024",
+    "view_certificate": "View Certificate →",
+    "career_objective": "Career Objective",
+    "career_objective_description": "Aspiring frontend developer with strong skills in HTML, CSS, JavaScript, and React, aiming to build impactful and user-friendly web applications. Committed to continuous learning and contributing to innovative, high-quality solutions that drive organizational success.",
+    "focus": "Focus",
+    "focus_description": "Frontend Development",
+    "focus_tech": "React, JavaScript, CSS",
+    "projects_title": "Projects",
+    "projects_count": "3+ Completed",
+    "projects_types": "Web & Mobile Apps"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A showcase of my recent work and personal projects",
+    "filter": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "full_stack": "Full-Stack"
+    },
+    "view_code": "View Code",
+    "stats": {
+      "completed_projects": "Completed Projects",
+      "technologies_used": "Technologies Used",
+      "open_source": "Open Source"
+    },
+    "ryde": {
+      "title": "Ryde",
+      "description": "A Mobile Application That Connects Passengers With Drivers Using Their Personal Vehicles For Transportation. Features real-time location tracking, secure payment integration, and user-friendly interface for both passengers and drivers."
+    },
+    "horizon": {
+      "title": "Horizon",
+      "description": "An E-Commerce Website That Sells Printers To Customers With User-Friendly Interface. Features product catalog, shopping cart functionality, and responsive design for optimal user experience across all devices."
+    },
+    "kitab_zone": {
+      "title": "Kitab-Zone",
+      "description": "A Web-Based Library Management System Designed To Automate Book Tracking, Borrowing, Reserving, And Administrative Tasks For Colleges. Includes user authentication, book search, and administrative dashboard."
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Let's discuss opportunities and collaborate on exciting projects",
+    "info_title": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "location_value": "Biratchowk, Nepal",
+    "connect_title": "Connect with me",
+    "promise_title": "Quick Response Promise",
+    "promise_description": "I typically respond to messages within 24 hours. For urgent matters, feel free to call me directly.",
+    "send_message_title": "Send a Message",
+    "name_label": "Name *",
+    "name_placeholder": "Your full name",
+    "email_label": "Email *",
+    "email_placeholder": "your.email@example.com",
+    "subject_label": "Subject *",
+    "subject_placeholder": "What's this about?",
+    "message_label": "Message *",
+    "message_placeholder": "Tell me about your project or opportunity...",
+    "send_button": "Send Message",
+    "sending_button": "Sending...",
+    "alert_success": "Thank you for your message! I'll get back to you soon."
+  }
+} 
