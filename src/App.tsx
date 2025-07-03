@@ -3,7 +3,9 @@ import Navigation from "./components/Navigation"
 import Home from "./pages/Home"
 import Skills from "./pages/Skills"
 import Projects from "./pages/Projects"
+import Blogs from "./pages/Blogs"
 import Contact from "./pages/Contact"
+import BlogDetail from "./pages/BlogDetail"
 import React, { useRef, useLayoutEffect } from "react"
 import gsap from "gsap"
 
@@ -31,6 +33,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/:id" element={<BlogDetail />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

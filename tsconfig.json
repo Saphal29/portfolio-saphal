@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "lib"],
+  "include": ["src", "lib", "supabaseClient.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 } 

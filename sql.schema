@@ -1,0 +1,12 @@
+create table blogs (
+  id uuid primary key default gen_random_uuid(),
+  title text not null,
+  content text not null, -- Markdown or rich text
+  thumbnail text,        -- URL or storage path to image
+  video_url text,        -- YouTube or video link (optional)
+  created_at timestamptz not null default now(),
+  views integer not null default 0,
+  tags text[],           -- Array of tags
+  type text not null,    -- e.g., 'Tutorial', 'Opinion', etc.
+  updated_at timestamptz default now()
+);

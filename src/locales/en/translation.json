@@ -3,7 +3,24 @@
     "home": "Home",
     "skills": "Skills",
     "projects": "Projects",
+    "blogs": "Blogs",
     "contact": "Contact"
+  },
+  "blogs_page": {
+    "title": "Blogs",
+    "filters_and_sorting": {
+      "tag": "Tag:",
+      "type": "Type:",
+      "sort_by": "Sort by:",
+      "all": "All"
+    },
+    "pagination": {
+      "prev": "Prev",
+      "next": "Next",
+      "page_of": "Page {{page}} of {{totalPages}}"
+    },
+    "loading": "Loading...",
+    "blog_not_found": "Blog not found."
   },
   "home": {
     "greeting": "Hello, I'm Saphal Chudal",
