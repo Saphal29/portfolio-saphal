@@ -42,18 +42,19 @@ export default function Blogs() {
   const [sort, setSort] = useState('created_at_desc');
   const [allTags, setAllTags] = useState<string[]>([]);
 
-  const blogsContainerRef = useRef(null);
+  const blogsContainerRef = useRef<HTMLDivElement>(null);
   const { t } = useTranslation();
 
   useLayoutEffect(() => {
     if (blogsContainerRef.current) {
-      gsap.fromTo(
-        blogsContainerRef.current,
-        { opacity: 0, y: 50 },
-        { opacity: 1, y: 0, duration: 0.8, ease: "power3.out", stagger: 0.1 }
+      // Ensure individual blog cards start hidden and slightly offset
+      gsap.set(blogsContainerRef.current.children, { opacity: 0, y: 50 });
+      gsap.to(
+        blogsContainerRef.current.children, // Target the children for animation
+        { opacity: 1, y: 0, duration: 0.8, ease: "power5.out", stagger: 0.05 }
       );
     }
-  }, [blogs]); // Re-run animation when blogs data changes (e.g., filter, sort, paginate)
+  }, [blogs]); // Re-run animation when blogs data changes
 
   useEffect(() => {
     async function fetchTags() {

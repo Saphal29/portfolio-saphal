@@ -15,6 +15,7 @@ export default function Contact() {
 
   const formRef = useRef(null)
   const successMessageRef = useRef(null)
+  const contactContainerRef = useRef<HTMLDivElement>(null)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -47,8 +48,18 @@ export default function Contact() {
     })
   }
 
+  useLayoutEffect(() => {
+    if (contactContainerRef.current) {
+      gsap.fromTo(
+        contactContainerRef.current.children,
+        { opacity: 0, y: 50 },
+        { opacity: 1, y: 0, duration: 0.8, ease: "power3.out", stagger: 0.1 }
+      );
+    }
+  }, []);
+
   return (
-    <div className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-white" ref={contactContainerRef}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h1>

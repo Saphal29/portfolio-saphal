@@ -10,3 +10,4 @@ create table blogs (
   type text not null,    -- e.g., 'Tutorial', 'Opinion', etc.
   updated_at timestamptz default now()
 );
+

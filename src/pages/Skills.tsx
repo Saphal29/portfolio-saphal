@@ -1,7 +1,20 @@
 import { useTranslation } from "react-i18next"
+import { useRef, useLayoutEffect } from "react"
+import gsap from "gsap"
 
 export default function Skills() {
   const { t } = useTranslation()
+  const skillsContainerRef = useRef<HTMLDivElement>(null)
+
+  useLayoutEffect(() => {
+    if (skillsContainerRef.current) {
+      gsap.fromTo(skillsContainerRef.current.children, 
+        { opacity: 0, y: 50 },
+        { opacity: 1, y: 0, duration: 0.8, ease: "power3.out", stagger: 0.1 }
+      );
+    }
+  }, []);
+
   const technicalSkills = [
     "JavaScript",
     "Python",
@@ -26,7 +39,7 @@ export default function Skills() {
   ]
 
   return (
-    <div className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-white" ref={skillsContainerRef}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{t("skills.title")}</h1>

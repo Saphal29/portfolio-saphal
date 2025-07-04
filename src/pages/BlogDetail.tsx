@@ -20,18 +20,20 @@ function BlogCardDetail({ blog }: { blog: Blog }) {
       {blog.thumbnail && (
         <img src={blog.thumbnail} alt={blog.title} className="w-full h-64 object-cover rounded mb-4" />
       )}
-      <h1 className="text-3xl font-bold mb-2">{blog.title}</h1>
+      <h1 className="text-3xl font-bold mb-2 text-gray-900">{blog.title}</h1>
       <div className="mb-2 text-sm text-gray-500 flex gap-2">
         <span>{blog.type}</span>
         <span>•</span>
         <span>{new Date(blog.created_at).toLocaleDateString()}</span>
+        <span>•</span>
+        <span>{blog.views} Views</span>
       </div>
       <div className="flex flex-wrap gap-2 mb-4">
         {blog.tags && blog.tags.map((tag) => (
           <span key={tag} className="bg-blue-100 text-blue-700 px-2 py-0.5 rounded text-xs">{tag}</span>
         ))}
       </div>
-      <div className="prose max-w-none mb-4">
+      <div className="prose max-w-none mb-4 text-gray-900">
         {blog.content}
       </div>
       {blog.video_url && (
@@ -74,5 +76,9 @@ export default function BlogDetail() {
   if (loading) return <div className="p-8 text-center">Loading...</div>;
   if (!blog) return <div className="p-8 text-center">Blog not found.</div>;
 
-  return <BlogCardDetail blog={blog} />;
+  return (
+    <div className="pt-16">
+      <BlogCardDetail blog={blog} />
+    </div>
+  );
 } 
